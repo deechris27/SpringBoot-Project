@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1000/xhtml">
+<head th:replace="common/header :: common-header"/>
+
+<body>
+	
+	<div th:replace="common/header :: navbar"/>
+
+	<div class="container">
+		
+		<hr />
+		<div class="col-xs-4">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<img src="/images/bestseller.png" class="img-responsive" />
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-4">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<img src="/images/faq.png" class="img-responsive" />
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-4">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<img src="/images/hours.png" class="img-responsive" />
+				</div>
+			</div>
+		</div>
+
+
+		<div>
+			<div class="home-headline">
+				<span>Featured Books</span>
+			</div>
+			<hr style="margin-top: -15px;" />
+		</div>
+
+		
+
+	</div>
+	<!-- End of container -->
+
+
+	<div th:replace="common/header :: body-bottom-scripts"/>
+
+</body>
+</html>
